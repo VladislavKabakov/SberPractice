@@ -34,8 +34,8 @@ public class Main {
 }
 
 class City {
-	String name, region, district, foundation;
-	int population;
+	private String name, region, district, foundation;
+	private int population;
 
 	
 	City(String name, String region, String district, int population, String foundation) {
