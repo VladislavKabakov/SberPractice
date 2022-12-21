@@ -17,7 +17,6 @@ public class Main {
 		
 		while (scanner.hasNextLine()) {
 			String[] currentData = scanner.nextLine().split(",");
-			int size = currentData.length;
 			citiesInfo.add(new City(
 					currentData[1], 
 					currentData[2],
